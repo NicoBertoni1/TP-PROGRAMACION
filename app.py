@@ -1,4 +1,4 @@
-# Trabajo Práctico I - Programación II f
+# Trabajo Práctico I - Programación II
 
 
 import os
@@ -20,26 +20,26 @@ while respuesta != "salir":
     os.system ("cls") #Limpiar pantalla
     if opt.isnumeric():
         if int(opt) == 1:
-            #completar
-            print()
+            ejemplares_prestados()
+            print(ejemplares_prestados)
         elif int(opt) == 2:
-            #completar
-            print()
+            devolver_ejemplar_libro()
+            print(devolver_ejemplar_libro)
         elif int(opt) == 3:
-            #completar
-            print()
+            registrar_nuevo_libro()
+            print(registrar_nuevo_libro)
         elif int(opt) == 4:
-            #completar
-            print()
+            eliminar_ejemplar_libro()
+            print(eliminar_ejemplar_libro)
         elif int(opt) == 5:
-            #completar
-            print()
+            ejemplares_prestados()
+            print(ejemplares_prestados)
         elif int(opt) == 6:
             respuesta = "salir"
         else: print("Ingrese una opción válida")
     else: 
         print("Ingrese una opción numérica")
-    
+
     input("Presione cualquier tecla para continuar....") # Pausa
 
 print("Hasta luego!.")
